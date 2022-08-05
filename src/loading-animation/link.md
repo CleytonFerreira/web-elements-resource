@@ -1,1 +1,0 @@
-[css loading animation - css tutorial](https://www.youtube.com/watch?v=tla17buc3tw)

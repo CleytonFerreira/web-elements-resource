@@ -1,0 +1,31 @@
+body {
+    background: #4a4a4a;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    display: flex;
+    width: 1000px;
+}
+
+.container .box-cell{
+    padding: 20px;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container .box .box-cell.box1 {
+    background: #ff00ea;
+}
+
+.container .box .box-cell.box2 {
+    background: #fbff23;
+}
