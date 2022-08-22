@@ -1,0 +1,3 @@
+[Slide image on hover css effect - Html css - Pure Css3 Hover Effects](https://www.youtube.com/watch?v=CUvrez2d4Xw)
+
+Imagem de [Larisa Koshkina](https://pixabay.com/pt/users/larisa-k-1107275/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=2887350) por [Pixabay](https://pixabay.com/pt//?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=2887350)
