@@ -1,0 +1,1 @@
+[Css Loading Animation - Fade in fade out text css animation](https://www.youtube.com/watch?v=LspTmvzJqZ0)
