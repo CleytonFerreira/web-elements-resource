@@ -63,7 +63,7 @@ body {
 }
 
 .loader li:nth-child(5) {
-    animation-delay: 8s;
+    animation-delay: .8s;
 }
 
 .loader li:nth-child(6) {
