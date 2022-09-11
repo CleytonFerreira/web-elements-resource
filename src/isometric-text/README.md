@@ -1,0 +1,1 @@
+[css isometric text - pure css tutorial](https://www.youtube.com/watch?v=saiizhjCEow)

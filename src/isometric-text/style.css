@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #00b928;
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.isometric {
+    width: 500px;
+    padding: 20px;
+    border: 1px solid rgba(0, 0, 0, .2);
+    transform: rotate(-30deg) skew(30deg, 0deg);
+}
+
+.isometric p {
+    padding-top: 30px;
+    color: #02ff75;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    text-align: justify;
+}
+
+.isometric h1 {
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 3rem;
+    text-align: justify;
+    transform-origin: bottom;
+    transform: skew(-50deg);
+    text-shadow: -1px -1px 0 #ccc, -2px -2px 0 #ccc, -3px -3px 0 #ccc;
+}
+
+.isometric h1::before {
+    content: 'ISOMETRIC TEXT';
+    position: absolute;
+    color: rgba(0, 0, 0, .1);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 3rem;
+    text-align: justify;
+    transform-origin: bottom;
+    transform: skew(50deg) rotateX(180deg);
+    text-shadow: none;
+    top: -21px;
+    left: -13px;
+}
