@@ -5,7 +5,7 @@
 }
 
 body {
-    background: #00b928;
+    background-color: cornflowerblue;
 }
 
 .container {
@@ -23,8 +23,8 @@ body {
 }
 
 .isometric p {
-    padding-top: 30px;
-    color: #02ff75;
+    padding-top: 40px;
+    color: rgba(255, 255, 255, .6);
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1rem;
     text-align: justify;
@@ -43,7 +43,7 @@ body {
 .isometric h1::before {
     content: 'ISOMETRIC TEXT';
     position: absolute;
-    color: rgba(0, 0, 0, .1);
+    color: rgba(0, 0, 0, .2);
     font-family: Arial, Helvetica, sans-serif;
     font-size: 3rem;
     text-align: justify;
@@ -52,4 +52,27 @@ body {
     text-shadow: none;
     top: -21px;
     left: -13px;
+}
+
+@media screen and (max-width: 600px) {
+    .isometric {
+        width: 300px;
+        transform: rotate(-30deg) skew(30deg, 0deg) scale(0.8);
+        padding: 0;
+    }
+
+    .isometric p {
+        font-size: 0.8rem;
+        padding-top: 30px;
+    }
+
+    .isometric h1 {
+        font-size: 1.9rem;
+    }
+
+    .isometric h1::before {
+        top: -12px;
+        left: -6px;
+        font-size: 1.9rem;
+    }
 }
