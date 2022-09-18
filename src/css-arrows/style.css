@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #0f0f0f;
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.left,
+.right {
+    width: 100px;
+    height: 100px;
+    transition: .5s;
+    box-shadow: -2px -2px 0 rgba(255, 255, 255, .1);
+    cursor: pointer;
+}
+
+.left {
+    transform: rotate(-45deg);
+}
+
+.right {
+    transform: rotate(135deg);
+}
+
+.left:hover,
+.right:hover {
+    box-shadow: -2px -2px 0 rgba(255, 255, 255, .5);
+}
