@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.btn {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    text-decoration: none;
+    color: #262626;
+    border-top: 2px solid #262626;
+    border-bottom: 2px solid #262626;
+    padding: 15px 0;
+    letter-spacing: 2px;
+    transition: .5s cubic-bezier(.17, .67, .09, 1.91);
+}
+
+.btn:hover {
+    letter-spacing: 15px;
+}
