@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.heading-style {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #262626;
+    font-size: 44px;
+    border-top: 2px solid #262626;
+    border-bottom: 2px solid #262626;
+    padding: 15px 0;
+}
+
+.heading-style:hover {
+    animation: stretch .7s;
+    letter-spacing: 20px;
+}
+
+@keyframes stretch {
+    0% {
+        letter-spacing: 0px;
+    }
+
+    50% {
+        letter-spacing: -20px;
+    }
+
+    100% {
+        letter-spacing: 20px;
+    }
+}
