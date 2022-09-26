@@ -1,0 +1,1 @@
+[CSS Paper Cut Text Effect - Pure Css Tutorial](https://www.youtube.com/watch?v=dji_AxIkWP8)
