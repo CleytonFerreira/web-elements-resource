@@ -1,0 +1,1 @@
+[Line Loading Animation - Pure Css Animation Effect - Html5 Css3](https://www.youtube.com/watch?v=UD7snk0jfLA)
