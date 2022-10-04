@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #5275d8;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.display-text-container {
+    width: 100%;
+}
+
+.fixed-text {
+    margin-left: 33.3%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 5em;
+    color: #fff;
+    text-shadow: 0 2px 0 rgba(0, 0, 0, .5);
+    white-space: nowrap;
+}
+
+.fixed-text::after {
+    display: inline;
+    content: '';
+    animation: change infinite 8s;
+}
+
+@keyframes change {
+    0% {
+        content: 'HTML';
+    }
+
+    20% {
+        content: 'CSS';
+    }
+
+    40% {
+        content: 'JS';
+    }
+
+    60% {
+        content: 'VSCode';
+    }
+
+    80% {
+        content: 'Inkscape';
+    }
+
+    100% {
+        content: 'HTML';
+    }
+}
