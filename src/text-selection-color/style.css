@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    padding: 5% 10%;
+}
+
+.text-heading, .text-paragraph {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.text-paragraph {
+    margin-top: 18px;
+}
+
+.text-heading::selection {
+    background: #f00;
+    color: yellow;
+}
+
+.text-paragraph::selection {
+    background: #262626;
+    color: #fff;
+}
