@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #262626;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.social {
+    display: flex;
+}
+
+.social-item {
+    list-style-type: none;
+}
+
+.media-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 80px;
+    height: 80px;
+    margin: 0 10px;
+    overflow: hidden;
+    background: #fff;
+    border: 3px solid #fff;
+    border-radius: 50%;
+    font-size: 30px;
+    text-decoration: none;
+    z-index: 1;
+}
+
+.media-icon::before {
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transition: .5s;
+    z-index: 2;
+}
+
+.fa {
+    position: relative;
+    color: #292929;
+    transition: .5s ease-in-out;
+    z-index: 3;
+}
+
+.media-icon:hover::before {
+    top: 0;
+}
+
+.social-item:nth-child(1) .media-icon::before {
+    background: #3b5998;
+}
+
+.social-item:nth-child(2) .media-icon::before {
+    background: #ff3333;
+}
+
+.social-item:nth-child(3) .media-icon::before {
+    background: #833ab4;
+}
+
+.social-item:nth-child(4) .media-icon::before {
+    background: #4875b4;
+}
+
+.social-item:nth-child(5) .media-icon::before {
+    background: #333;
+}
+
+.media-icon:hover .fa {
+    color: #fff;
+    transform: rotateY(360deg);
+}
