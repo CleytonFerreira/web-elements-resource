@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.slide {
+    width: 300px;
+    height: 100px;
+    background: url(slide.png);
+    transition: .5s;
+    border: 2px solid #000;
+}
+
+.slide:hover {
+    background-position: 0 -100px;
+}
