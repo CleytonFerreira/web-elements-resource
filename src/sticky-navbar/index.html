@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Sticky Navbar</title>
+</head>
+
+<body>
+    <div class="text">
+        <h1>Sticky Navigation Tutorial</h1>
+    </div>
+
+    <ul class="menu">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Service</a></li>
+        <li><a href="#">Portfolio</a></li>
+        <li><a href="#">Contact</a></li>
+    </ul>
+
+    <section class="sec"></section>
+    <section class="sec"></section>
+    <section class="sec"></section>
+</body>
+
+<script>
+    window.addEventListener('scroll', function () {
+        let menu = document.querySelector('.menu');
+        window.scrollY > 100 ? 
+        menu.classList.add('sticky') : 
+        menu.classList.remove('sticky');
+    })
+</script>
+
+</html>

@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #ccc;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.text {
+    text-align: center;
+    height: 100px;
+    background: #262626;
+}
+
+.text h1 {
+    line-height: 100px;
+    color: #fff;
+    font-size: 48px;
+}
+
+.menu {
+    background: #f00;
+    color: #fff;
+    display: flex;
+}
+
+.menu li {
+    list-style-type: none;
+    padding: 20px;
+}
+
+.menu li a {
+    text-decoration: none;
+    color: #fff;
+    padding: inherit;
+}
+
+.sec {
+    height: 300px;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
