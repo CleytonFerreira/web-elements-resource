@@ -1,1 +1,1 @@
-[Css Loading Animation - Fade in fade out text css animation](https://www.youtube.com/watch?v=u4vYGvHQGWU)
+[CSS Skewed Background Tutorial - 2 - pure css tutorials](https://www.youtube.com/watch?v=hHtdOp6DfyE)
