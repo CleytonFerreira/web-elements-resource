@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #262626;
+}
+
+.navbar {
+    display: flex;
+    width: 100%;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    list-style-type: none;
+}
+
+.menu li {
+    padding: 20px 40px;
+}
+
+.menu li a {
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #fff;
+    padding: 5px;
+}
+
+.menu li a:hover {
+    color: #ff0;
+}
+
+.menu li a span:first-child::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 8px;
+    height: 8px;
+    background: transparent;
+    border-top: 2px solid #ff0;
+    border-left: 2px solid #ff0;
+    transition: .2s;
+    opacity: 0;
+}
+
+.menu li a span:first-child::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 8px;
+    height: 8px;
+    background: transparent;
+    border-top: 2px solid #ff0;
+    border-right: 2px solid #ff0;
+    transition: .2s;
+    opacity: 0;
+}
+
+.menu li a span:last-child::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 8px;
+    height: 8px;
+    background: transparent;
+    border-bottom: 2px solid #ff0;
+    border-left: 2px solid #ff0;
+    transition: .2s;
+    opacity: 0;
+}
+
+.menu li a span:last-child::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 8px;
+    height: 8px;
+    background: transparent;
+    border-bottom: 2px solid #ff0;
+    border-right: 2px solid #ff0;
+    transition: .2s;
+    opacity: 0;
+}
+
+.menu li a:hover span:first-child::before {
+    top: -8px;
+    left: -8px;
+    opacity: 1;
+}
+
+.menu li a:hover span:first-child::after {
+    top: -8px;
+    right: -8px;
+    opacity: 1;
+}
+
+.menu li a:hover span:last-child::before {
+    bottom: -8px;
+    left: -8px;
+    opacity: 1;
+}
+
+.menu li a:hover span:last-child::after {
+    bottom: -8px;
+    right: -8px;
+    opacity: 1;
+}
