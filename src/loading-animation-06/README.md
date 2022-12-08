@@ -1,0 +1,1 @@
+[Animated Loader Ring](https://www.youtube.com/watch?v=UtCUwzgL3lE)
