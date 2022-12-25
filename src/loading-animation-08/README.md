@@ -1,0 +1,1 @@
+[CSS Loading Animation](https://www.youtube.com/watch?v=1fUQEo3NBqs)
