@@ -1,1 +1,1 @@
-[]()
+[Computer Monitor Shape](https://www.youtube.com/watch?v=Rai1TOVflQ8)
