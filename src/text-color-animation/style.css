@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.display-text {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    font-size: 10em;
+    color: transparent;
+    text-transform: uppercase;
+    background-image: linear-gradient(to right, #f00, #ff0, #0ff, #0f0, #00f);
+    background-clip: text;
+    -webkit-background-clip: text;
+    animation: animate 20s linear infinite;
+    background-size: 1000%;
+}
+
+@keyframes animate {
+    0% {
+        background-position: 0% 100%;
+    }
+
+    50% {
+        background-position: 100% 0%;
+    }
+
+    100% {
+        background-position: 0% 100%;
+    }
+}
