@@ -1,0 +1,68 @@
+:root {
+    --laptop-width: 340px;
+    --laptop-height: 200px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #262626;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.laptop {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    width: var(--laptop-width);
+    height: var(--laptop-height);
+}
+
+.laptop-screen-border {
+    display: flex;
+    justify-content: center;
+    width: inherit;
+    height: inherit;
+    border: 1px solid #fff;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+}
+
+.laptop-screen {
+    align-self: center;
+    width: calc(var(--laptop-width) - 30px);
+    height: calc(var(--laptop-height) - 30px);
+    background: #000;
+}
+
+.camera {
+    position: absolute;
+    top: 5.5px;
+    width: 4px;
+    height: 4px;
+    background: #000;
+    border-radius: 50%;
+}
+
+.laptop-keyboard {
+    position: absolute;
+    bottom: -8px;
+    width: 130%;
+    height: 10px;
+    background: #fff;
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
