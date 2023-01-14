@@ -1,0 +1,1 @@
+[Css3 Text Reveal Animation - Pure CSS Tutorials](https://www.youtube.com/watch?v=3YKpKpC1O5s)
