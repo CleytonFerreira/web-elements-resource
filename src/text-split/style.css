@@ -17,15 +17,14 @@
     font-size: 8em;
     color: #262626;
     text-transform: uppercase;
-    z-index: -1;
 }
 
 .text::before {
     content: attr(data-title);
     position: absolute;
-    top: 0;
-    left: 0;
-    color: #fff;
+    top: 0px;
+    left: 0px;
+    color: #fff; /*Para que o efeito funcione, color deve ser da mesma cor do plano de fundo.*/
     height: 50%;
     overflow: hidden;
     z-index: 1;
@@ -34,17 +33,17 @@
 .text::after {
     content: attr(data-title);
     position: absolute;
-    top: 0;
-    left: 0;
+    top: 0px;
+    left: 0px;
     color: #262626;
-    height: 55%;
+    height: 50%;
     overflow: hidden;
     transition: .5s;
     border-bottom: 0px solid #f00;
     z-index: 2;
 }
 
-.text:hover::after{
+.text:hover::after {
     border-bottom: 20px solid #ff0;
-    top: -20px;
+    top: -5%;
 }
