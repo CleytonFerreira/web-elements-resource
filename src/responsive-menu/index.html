@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Responsive Menu</title>
+</head>
+
+<body>
+    <nav class="menu">
+        <div class="toggle">
+            <button class="toggle-btn">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Portfolio</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+</body>
+
+<script>
+    const toggleBtn = document.querySelector('.toggle-btn');
+    const menuUl = document.querySelector('.menu > ul');
+
+    toggleBtn.addEventListener('click', function () {
+        toggleBtn.classList.toggle('open');
+        menuUl.classList.toggle('show');
+    })
+</script>
+
+</html>
