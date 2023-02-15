@@ -21,7 +21,6 @@
 
 .menu ul li {
     list-style-type: none;
-    padding: 20px;
     transition: .5s;
 }
 
@@ -30,8 +29,10 @@
 }
 
 .menu ul li a {
+    display: block;
     color: #fff;
     text-decoration: none;
+    padding: 20px;
 }
 
 /* menu mobile */
@@ -66,23 +67,23 @@
     transition: .7s;
 }
 
-.toggle-btn span:nth-child(1){
+.toggle-btn span:nth-child(1) {
     top: 22.92%;
 }
 
-.toggle-btn span:nth-child(2){
+.toggle-btn span:nth-child(2) {
     top: 50%;
     transform: translateY(-50%);
 }
 
-.toggle-btn span:nth-child(3){
+.toggle-btn span:nth-child(3) {
     bottom: 22.92%;
 }
 
 
 .toggle-btn.open span:nth-child(1) {
     top: 50%;
-    transform:translateY(-50%) rotate(-45deg);
+    transform: translateY(-50%) rotate(-45deg);
 }
 
 .toggle-btn.open span:nth-child(2) {
@@ -91,7 +92,7 @@
 
 .toggle-btn.open span:nth-child(3) {
     bottom: 50%;
-    transform:  translateY(50%) rotate(45deg);
+    transform: translateY(50%) rotate(45deg);
 }
 
 @media screen and (max-width: 768px) {
