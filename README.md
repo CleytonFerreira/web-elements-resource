@@ -1,4 +1,4 @@
-# css-ot
+# Web Elements Resource
 Este projeto é dedicado a fazer refatorações de alguns de projetos HTML / CSS / JS de várias fontes da internet.
 
 Dentre as refatorações, são feitas: 
