@@ -9,3 +9,5 @@ Dentre as refatorações, são feitas:
 - Substituição de códigos criados com pré-processadores por CSS puro.
 
 Cada projeto está separado em uma pasta e terá o link para a versão original em um arquivo .MD 
+
+[Clique aqui](https://cleytonferreira.github.io/web-elements-resource/) para acessar o índice com todos os projetos.
