@@ -11,8 +11,7 @@
     height: 100vh;
 }
 
-.box{
-    position: absolute;
+.box {
     font-family: Arial, Helvetica, sans-serif;
     text-decoration: none;
     width: 150px;
@@ -29,29 +28,6 @@
     overflow: hidden;
 }
 
-.box::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: -50%;
-    width: 50%;
-    height: 100%;
-    background: #fff;
-    transition: .5s;
-}
-
- .box::after {
-    content: "";
-    position: absolute;
-    top: 0;
-    right: -50%;
-    width: 50%;
-    height: 100%;
-    background: #fff;
-    transition: .5s;
-    z-index: 10;
-}
-
 .inner-box::before {
     content: "";
     position: absolute;
@@ -63,7 +39,7 @@
     transition: .5s;
 }
 
- .inner-box::after {
+.inner-box::after {
     content: "";
     position: absolute;
     top: 0;
@@ -91,7 +67,7 @@
     right: 0;
 }
 
-.box h4{
+.box h4 {
     position: absolute;
     top: 50%;
     left: 50%;
