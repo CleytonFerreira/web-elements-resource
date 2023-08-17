@@ -1,0 +1,1 @@
+[Loading Animation Using Only HTML & CSS | HTML & CSS](https://rumble.com/vfjohh-loading-animation-using-only-html-and-css-html-and-css.html)
