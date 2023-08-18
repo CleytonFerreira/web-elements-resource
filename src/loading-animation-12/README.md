@@ -1,0 +1,1 @@
+[Awesome loading screen using only HTML & CSS](https://rumble.com/vfkrzf-awesome-loading-screen-using-only-html-and-css.html)
