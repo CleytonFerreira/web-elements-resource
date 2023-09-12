@@ -1,0 +1,1 @@
+[Amazing Loading Animation Using Only HTML & CSS](https://rumble.com/vfks4p-amazing-loading-animation-using-only-html-and-css.html)
