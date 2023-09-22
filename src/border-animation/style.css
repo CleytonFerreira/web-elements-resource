@@ -17,12 +17,12 @@ body {
 
 .display-text {
     position: relative;
-    width: 100px;
-    height: 50px;
+    width: 6.25rem;
+    height: 3.12rem;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 24px;
+    font-size: 1.5rem;
     text-align: center;
-    line-height: 50px;
+    line-height: 3.12rem;
     color: #262626;
 }
 

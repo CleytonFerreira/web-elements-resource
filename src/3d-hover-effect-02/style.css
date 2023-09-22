@@ -19,12 +19,12 @@ body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-decoration: none;
     text-transform: uppercase;
-    font-size: 30px;
+    font-size: 1.8rem;
 }
 
 .btn-3d span {
     position: relative;
-    padding: 15px;
+    padding: 0.9rem;
     transition: .5s;
 }
 
@@ -41,7 +41,7 @@ body {
 .btn-3d span:nth-child(1)::before {
     content: attr(data-attr);
     position: absolute;
-    padding: 15px;
+    padding: 0.9rem;
     top: 0;
     left: 0;
     background: #ff3636;
@@ -57,7 +57,7 @@ body {
 .btn-3d span:nth-child(2)::before {
     content: attr(data-attr);
     position: absolute;
-    padding: 15px;
+    padding: 0.9rem;
     top: 0;
     left: 0;
     background: #262626;
@@ -73,7 +73,7 @@ body {
 .btn-3d span:nth-child(1)::after {
     content: attr(data-attr);
     position: absolute;
-    padding: 15px;
+    padding: 0.9rem;
     top: 0;
     left: 0;
     background: #262626;
@@ -89,7 +89,7 @@ body {
 .btn-3d span:nth-child(2)::after {
     content: attr(data-attr);
     position: absolute;
-    padding: 15px;
+    padding: 0.9rem;
     top: 0;
     left: 0;
     background: #ff3636;

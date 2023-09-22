@@ -20,8 +20,8 @@ body {
     justify-content: center;
     align-items: center;
     position: relative;
-    width: 400px;
-    height: 400px;
+    width: 25rem;
+    height: 25rem;
     background: #3b93ff;
     border: 20px solid #fff;
     border-radius: 50%;
@@ -46,7 +46,7 @@ body {
     position: absolute;
     transform: rotate(-45deg);
     color: #fff;
-    font-size: 8em !important;
+    font-size: 8rem !important;
     animation: animate-rocket .2s linear infinite;
     text-shadow: -10px 15px 10px rgba(0, 0, 0, .2);
     z-index: 1;

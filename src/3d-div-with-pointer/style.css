@@ -17,46 +17,46 @@ body {
 
 .box-3d {
     position: relative;
-    width: 500px;
-    height: 300px;
+    width: 31rem;
+    height: 18rem;
     background: #fff;
-    padding: 20px;
+    padding: 1.2rem;
     border: 2px solid #262626;
     border-radius: 5px;
     font-family: Arial, Helvetica, sans-serif;
     transform: skewY(-5deg);
     transition: .5s;
     box-shadow: -1px -1px 0 #444,
-                -2px -2px 0 #444,
-                -3px -3px 0 #444,
-                -4px -4px 0 #444,
-                -5px -5px 0 #444,
-                -6px -6px 0 #444;
+        -2px -2px 0 #444,
+        -3px -3px 0 #444,
+        -4px -4px 0 #444,
+        -5px -5px 0 #444,
+        -6px -6px 0 #444;
 }
 
 .box-3d:hover {
     transform: skewY(5deg);
     box-shadow: 1px -1px 0 #444,
-                2px -2px 0 #444,
-                3px -3px 0 #444,
-                4px -4px 0 #444,
-                5px -5px 0 #444,
-                6px -6px 0 #444;
+        2px -2px 0 #444,
+        3px -3px 0 #444,
+        4px -4px 0 #444,
+        5px -5px 0 #444,
+        6px -6px 0 #444;
 }
 
 .box-3d p {
     color: #262626;
 }
 
-.box-3d h1{
-    padding-top: 10px ;
+.box-3d h1 {
+    padding-top: 0.6rem;
 }
 
 .box-3d::before {
     position: absolute;
     content: '';
-    width: 30px;
-    height: 30px;
+    width: 1.8rem;
+    height: 1.8rem;
     background: #fff;
     top: 95%;
     left: 50%;
@@ -69,8 +69,8 @@ body {
 .box-3d::after {
     position: absolute;
     content: '';
-    width: 100px;
-    height: 4px;
+    width: 6.25rem;
+    height: 0.25rem;
     border-radius: 50%;
     background: #000;
     top: 110%;

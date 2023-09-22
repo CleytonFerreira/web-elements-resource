@@ -25,8 +25,8 @@ body {
     align-items: center;
     position: relative;
     background: transparent;
-    width: 100px;
-    height: 100px;
+    width: 6.25rem;
+    height: 6.25rem;
     outline: none;
     cursor: pointer;
     border: solid var(--line-thickness) #262626;
